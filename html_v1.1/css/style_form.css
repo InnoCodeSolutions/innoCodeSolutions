@@ -1,18 +1,21 @@
-.formulario{
+.form{
     font-family: sans-serif;
     font-size: medium;
     text-align: justify;
 }
-fieldset{
-    border-radius: 20px;
+
+    fieldset{
+    border-radius: 5px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
-legend{
+
+    legend{
     font-weight: bold;
 }
+
 .botao_enviar{
-    display: flex;
     justify-content: center;
     align-items: center;
+    background-color: blue;
 }
