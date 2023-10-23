@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #eceff1 /* #212529 */;
+    align-items: center;
     /* background-color: #212529; */ /* Cor para modo dark*/ 
     width: 100vw;
     margin: 0;
@@ -38,18 +39,36 @@ header img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    /* background-color: #aaadae; */
     margin-top: 93px;
-    width: 93vw;
+    width: 85vw;
     margin-left: 40px; margin-right: 100px;
     /* background-color: #333333; */
     /* color: #899095; */ /* Cor para modo dark */
+}
+.topo_corpo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.primeiro_bloco{
+    border-width: 1.5px;
+    border-radius: 20px;
+    border-style: solid;
+    margin: 5px;
+    padding: 15px;
+    width: 600px;
+}
+.metodologia{
+    flex-direction: row;
+    display: flex;
 }
 .botoes_menu{
     display: flex;
     margin: 10px;
 }
-header button{
+header button, li{
     background-color: transparent;
     margin-right: 30px;
     font-size: 15px;
@@ -57,7 +76,7 @@ header button{
     color: white;
     text-wrap: nowrap;
 }
-header button:hover{
+header button:hover, a:hover{
     cursor: pointer;
     color: rgb(92, 90, 90);
 }
@@ -73,6 +92,11 @@ header button:hover{
     align-items: center;
     justify-content: space-between;
     margin-right: 30px;
+    list-style: none;
+}
+.botao_capitulo:hover{
+    cursor: pointer;
+    color: rgb(92, 90, 90);
 }
 input[type = "checkbox"]{
     display: none;
@@ -104,7 +128,8 @@ input[type = "search"]::placeholder{
     color: white;
 }
 #scrum_img{
-    width: 75%;
+    width: 65%;
+    height: 85%;
 }
 .submenu{
     display: flex;
@@ -139,20 +164,46 @@ input[type = "search"]::placeholder{
     color: rgb(92, 90, 90);
     cursor: pointer;
 }
-.rodapé{
-    width: 100%;
+/* .rodapé{
+    width: 100vw;
     height: 250px;
     background-color: #848484;
     margin-top: 30px;
 
     bottom: 0;
     border-top-left-radius: 20px; border-top-right-radius: 20px;
-}
+} */
 p{
     text-align: justify;
 }
+h5{
+    text-align: left;
+}
 
-/* Tema Escuro */
+/*FOMRULÁRIO*/
+
+.form{
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: justify;
+}
+fieldset{
+    border-radius: 5px;
+    padding: 10px;
+}
+legend{
+    font-weight: bold;
+}
+.botao_enviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+/*FIM FORMULÁRIO*/
+
+/* TEMA ESCURO */
 .bi{
     font-size: 1.3rem;
     cursor: pointer;
@@ -171,3 +222,4 @@ p{
 .dark .bi-moon{
     display: block;
 }
+/* FIM TEMA ESCURO */

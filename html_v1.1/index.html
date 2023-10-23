@@ -1,89 +1,226 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="css/style_rodape.css" type="text/css">
 
     <title>Home</title>
 
-    <link rel="shortcut icon" href="img/logo-branco.png">
+    <link rel="shortcut icon" href="img/logo-branco.png" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"/>
+
     <script src="js/scripts.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="inicio_header">
-            <div>
-                <a href="whoareus.html">
-                    <img id="logo" src="img/logo-branco.png">
-                </a>
-            </div>
-            <div>
-                <form>
-                    <input type="search" placeholder="Pesquisar" color="white">
-                </form>
-            </div>
+      <div class="inicio_header">
+        <div>
+          <a href="whoareus.html">
+            <img id="logo" src="img/logo-branco.png" />
+          </a>
         </div>
-            
+        <div>
+          <form>
+            <input type="search" placeholder="Pesquisar" color="white" />
+          </form>
+        </div>
+      </div>
+
         <div class="final_header">
             <div class="botoes_menu">
                 <a href="index.html"><button>Inicio</button></a>
-                <a href=""><button> O que é Scrum?</button></a>
-                <a href=""><button>Scrum na prática</button></a>
-                <a href=""><button>Artigos</button></a>
-                <a href=""><button>Formulário</button></a>
+                <a href=""><button>Referências</button></a>
+                <a href="form.html"><button>Formulário</button></a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="botao_capitulo">
+                    Capítulos
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Capítulo 1</a></li>
+                        <li><a class="dropdown-item" href="#">Capítulo 2</a></li>
+                        <li><a class="dropdown-item" href="#">Capítulo 3</a></li>
+                        <li><a class="dropdown-item" href="#">Capítulo 4</a></li>
+                        <!-- <li><hr class="dropdown-divider" /></li> -->
+                        <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                    </ul>
+                    </li>
             </div>
             <div>
-                <input type="checkbox" name="change_theme" id="change_theme">
+                <input type="checkbox" name="change_theme" id="change_theme" />
                 <label for="change_theme">
-                    <i class="bi bi-sun"></i>
-                    <i class="bi bi-moon"></i>
+                <i class="bi bi-sun"></i>
+                <i class="bi bi-moon"></i>
                 </label>
             </div>
         </div>
     </header>
     <div class="corpo">
+      <div class="topo_corpo">
         <div id="scrum_img">
-            <img src="img/scrum.png" alt="" width="100%">
+          <img src="img/post-scrum.png" alt="" width="100%" height="100%" />
         </div>
         <div class="submenu">
-            <div class="botoes_submenu">
-                <a href=""><button>User Stories</button></a>
-                <a href=""><button>Sprint Backlog</button></a>
-                <a href=""><button>Development</button></a>
-                <a href=""><button>Sprint</button></a>
-            </div>
+          <div class="botoes_submenu">
+            <a href=""><button>User Stories</button></a>
+            <a href=""><button>Sprint Backlog</button></a>
+            <a href=""><button>Development</button></a>
+            <a href=""><button>Sprint</button></a>
+          </div>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est perferendis modi adipisci provident pariatur corrupti similique iste, aliquid atque rem sint accusamus mollitia quidem quod totam earum accusantium aliquam quas?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellendus incidunt, mollitia nobis maiores exercitationem enim possimus ex deleniti velit maxime voluptas nulla minima consequuntur sint magni eveniet consequatur repellat!Lorem
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vel dignissimos atque laboriosam asperiores modi ab delectus eum, expedita quis illum non eligendi minima error fugiat deleniti perspiciatis? Laboriosam, omnis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sed dolor distinctio nulla autem at mollitia, quidem consequuntur cum fugiat beatae impedit architecto quo labore perferendis perspiciatis eaque assumenda ea?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet aliquid atque doloribus impedit tenetur voluptatum, recusandae sint sunt. Est quae quo temporibus dicta? Impedit optio veniam cupiditate doloribus amet provident.lorem
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quia corrupti tempora placeat deleniti qui necessitatibus quasi nulla cum sed, temporibus aspernatur. Impedit sapiente obcaecati molestias nobis delectus cum officia.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eveniet numquam amet magni similique dolore iure delectus tempora pariatur, distinctio mollitia fugiat consequatur suscipit aspernatur voluptatibus, non vitae sunt consectetur!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus in quis fugit temporibus recusandae laborum, modi eius suscipit quod iste unde! Veritatis quidem eum, alias dolore nostrum sequi voluptatum rerum!lorem
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta dolor nobis eos quos ullam rem expedita consequuntur adipisci officia aperiam, voluptas error tenetur delectus! Vero sapiente consequatur nam provident impedit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quam iusto error, sit aliquam consectetur eum deleniti aspernatur tempora. Nam ullam assumenda illum, facilis veniam repudiandae? Voluptas sequi hic nesciunt!lorem
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt fuga quo in a harum suscipit nihil vero, consequatur, dolor qui natus reprehenderit iusto facere quia, culpa explicabo? Neque, tenetur debitis.
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est perferendis modi adipisci provident pariatur corrupti similique iste, aliquid atque rem sint accusamus mollitia quidem quod totam earum accusantium aliquam quas?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellendus incidunt, mollitia nobis maiores exercitationem enim possimus ex deleniti velit maxime voluptas nulla minima consequuntur sint magni eveniet consequatur repellat!Lorem
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vel dignissimos atque laboriosam asperiores modi ab delectus eum, expedita quis illum non eligendi minima error fugiat deleniti perspiciatis? Laboriosam, omnis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sed dolor distinctio nulla autem at mollitia, quidem consequuntur cum fugiat beatae impedit architecto quo labore perferendis perspiciatis eaque assumenda ea?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet aliquid atque doloribus impedit tenetur voluptatum, recusandae sint sunt. Est quae quo temporibus dicta? Impedit optio veniam cupiditate doloribus amet provident.lorem
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quia corrupti tempora placeat deleniti qui necessitatibus quasi nulla cum sed, temporibus aspernatur. Impedit sapiente obcaecati molestias nobis delectus cum officia.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eveniet numquam amet magni similique dolore iure delectus tempora pariatur, distinctio mollitia fugiat consequatur suscipit aspernatur voluptatibus, non vitae sunt consectetur!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus in quis fugit temporibus recusandae laborum, modi eius suscipit quod iste unde! Veritatis quidem eum, alias dolore nostrum sequi voluptatum rerum!lorem
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta dolor nobis eos quos ullam rem expedita consequuntur adipisci officia aperiam, voluptas error tenetur delectus! Vero sapiente consequatur nam provident impedit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quam iusto error, sit aliquam consectetur eum deleniti aspernatur tempora. Nam ullam assumenda illum, facilis veniam repudiandae? Voluptas sequi hic nesciunt!lorem
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt fuga quo in a harum suscipit nihil vero, consequatur, dolor qui natus reprehenderit iusto facere quia, culpa explicabo? Neque, tenetur debitis.</p>
+      </div>
+      <div>
+        <div class="metodologia">
+          <div class="primeiro_bloco">
+            <h5>2. O que é metodologia ágil?</h5>
+
+            <p>
+              A metodologia ágil é uma abordagem iterativa e incremental para o
+              desenvolvimento de software e outros projetos complexos, que
+              valoriza a colaboração, a adaptação e a entrega contínua de valor
+              ao cliente. Ela surgiu como uma alternativa às metodologias
+              tradicionais, que eram baseadas em processos rígidos, documentação
+              extensa e planejamento detalhado. A metodologia ágil se concentra
+              em entregar valor ao cliente em ciclos curtos, com feedback
+              constante e melhoria contínua.
+            </p>
+          </div>
+
+          <div class="primeiro_bloco">
+            <h5>2.1. História da metodologia ágil</h5>
+            <p>
+              A história da metodologia ágil remonta aos anos 1990, quando um
+              grupo de desenvolvedores de software se reuniu para discutir
+              maneiras de melhorar o processo de desenvolvimento. Eles
+              perceberam que as metodologias tradicionais eram muito
+              burocráticas, lentas e inflexíveis para lidar com as mudanças
+              constantes no mercado. Em 2001, eles publicaram o Manifesto Ágil,
+              um documento que estabeleceu os valores e princípios da
+              metodologia ágil.
+            </p>
+          </div>
+
+          <div class="primeiro_bloco">
+            <h5>2.2. Manifesto Ágil</h5>
+            <p>
+              O Manifesto Ágil é um documento que estabelece os valores e
+              princípios da metodologia ágil. Ele foi criado em 2001 por um
+              grupo de desenvolvedores de software que buscavam uma abordagem
+              mais flexível e adaptável para o desenvolvimento de software. Os
+              valores do Manifesto Ágil são: indivíduos e interações acima de
+              processos e ferramentas; software funcionando acima de
+              documentação extensiva; colaboração com o cliente acima de
+              negociação contratual; resposta a mudanças acima de seguir um
+              plano.
+            </p>
+          </div>
+        </div>
+
+        <h5>2.2. Manifesto Ágil</h5>
+        <p>
+          O Manifesto Ágil é um documento que estabelece os valores e princípios
+          da metodologia ágil. Ele foi criado em 2001 por um grupo de
+          desenvolvedores de software que buscavam uma abordagem mais flexível e
+          adaptável para o desenvolvimento de software. Os valores do Manifesto
+          Ágil são: indivíduos e interações acima de processos e ferramentas;
+          software funcionando acima de documentação extensiva; colaboração com
+          o cliente acima de negociação contratual; resposta a mudanças acima de
+          seguir um plano.
+        </p>
+
+        <h5>2.3. Valores e princípios da metodologia ágil</h5>
+
+        <p>
+          Os valores da metodologia ágil são baseados no Manifesto Ágil. Eles
+          enfatizam a importância da colaboração, comunicação efetiva, entrega
+          contínua de valor ao cliente e melhoria contínua do processo. Os
+          princípios da metodologia ágil incluem: satisfação do cliente através
+          da entrega contínua de software funcional; mudanças nos requisitos são
+          bem-vindas, mesmo no final do projeto; entregas frequentes com ciclos
+          curtos; equipes auto-organizáveis; comunicação face a face;
+          simplicidade; confiança entre equipe e cliente.
+        </p>
+      </div>
     </div>
+
     <footer>
-        <div class="rodapé">
-            
+      <div class="rodapé">
+        <div id="footer_content">
+          <div id="footer_contacts">
+            <h1>Innocode Solutions</h1>
+            <p>Inovando o presente, codificando o futuro.</p>
+
+            <div id="footer_social_media">
+              <a href="https://github.com/InnoCodeSolutions/innoCodeSolutions" class="footer-link" id="github" target="_blank"> 
+              <i class="fa-brands fa-github"></i>
+              </a>
+
+              <a href="https://www.linkedin.com/in/innocode-solutions-9a2b3428b/" class="footer-link" id="linkedin" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+
+              <!-- colocar link para fale conosco -->
+              <a href="#" class="footer-link" id="email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <h3>Conteúdo</h3>
+            </li>
+            <li>
+              <a href="#Capítulo 1" class="footer-link">Capítulo 1</a>
+            </li>
+            <li>
+              <a href="#Capítulo 2" class="footer-link">Capítulo 2</a>
+            </li>
+            <li>
+              <a href="#Capítulo 3" class="footer-link">Capítulo 3</a>
+            </li>
+            <li>
+              <a href="#Capítulo 4" class="footer-link">Capítulo 4</a>
+            </li>
+            <!-- colocar link para formulario -->
+            <li>
+              <a href="#" class="footer-link">Formulário</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <h3>Institucional</h3>
+            </li>
+            <!-- colocar link para quem somos -->
+            <li>
+              <a href="whoareus.html" class="footer-link">Quem Somos?</a>
+            </li>
+            <!-- colocar link para fale conosco -->
+            <li>
+              <a href="#" class="footer-link">Fale Conosco</a>
+            </li>
+          </ul>
         </div>
+        <div>
+          <div id="footer_innocode">InnoCode Solutions</div>
+          <div id="footer_innocode">
+            <img class="logorodape" src="img/logo-cinza.png" width="25" height="22"/>
+            Faculdade de Tecnologia de Jacareí "Professor Francisco de Moura"
+            <img class="logorodape" src="img/logo-cinza.png" width="25" height="22"/>
+          </div>
+        </div>
+      </div>
     </footer>
-</body>
-<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  </body>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> -->
 </html>
-
