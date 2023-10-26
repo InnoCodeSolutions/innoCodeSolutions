@@ -194,6 +194,7 @@ p{
 
 .card{
     box-shadow: 0.5px 0.5px 5px 0.5px #899095;
+    margin-left: 5px; margin-right: 5px;
 }
 
 
