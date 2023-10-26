@@ -28,6 +28,7 @@ header{
     border-radius: 20px;
     opacity: 96%;
     box-shadow: 0.5px 0.5px 10px 0.5px #0e5e70;
+    z-index: 99;
 }
 header img{
     width: 77.65px;
