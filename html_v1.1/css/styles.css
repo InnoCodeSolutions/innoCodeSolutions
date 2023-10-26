@@ -18,7 +18,7 @@ html{
 header{
     display: flex;
     background-color: #137B92;
-    margin-top: 5.5px; margin-left: 5.5px; margin-right: .5px;
+    margin-top: 5.5px; /* margin-left: 5.5px; margin-right: .5px; */
     height: 83px; 
     width: 99.3%;
     align-items: center;
@@ -121,6 +121,8 @@ input[type = "search"]::placeholder{
 #scrum_img{
     width: 65%;
     height: 85%;
+    border-radius: 20px;
+    margin-bottom: 15px; margin-top: 10px;
 }
 .submenu{
     display: flex;
@@ -190,7 +192,9 @@ p{
     margin: 10px;
 }
 
-
+.card{
+    box-shadow: 0.5px 0.5px 5px 0.5px #899095;
+}
 
 
 
@@ -243,5 +247,13 @@ legend{
 }
 .dark .bi-moon{
     display: block;
+}
+
+.dark #scrum_img{
+    width: 65%;
+    height: 85%;
+    background-color: #899095;
+    border-radius: 20px;
+    margin-bottom: 15px; margin-top: 10px;
 }
 /* FIM TEMA ESCURO */
