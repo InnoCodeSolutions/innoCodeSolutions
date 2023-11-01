@@ -157,7 +157,17 @@ input[type = "search"]::placeholder{
     color: rgb(92, 90, 90);
     cursor: pointer;
 }
-
+.conteudo_todo{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.conteudo{
+    width: 85%;
+    flex-direction: column;
+    display: flex;
+}
 .texto_img{
     background-image: url('../img/fatec_jacarei_blur.jpg');
     background-size: 100%;
@@ -170,9 +180,6 @@ input[type = "search"]::placeholder{
     font-size: 50px;
     color: white;
 }
-.chapeu{
-    width: 100px;
-}
 .conteudo_topo{
     display: flex;
     flex-direction: column;
@@ -182,13 +189,45 @@ input[type = "search"]::placeholder{
     justify-content: center;
     margin-bottom: 25px; margin-top: 35px;
 }
+.valores{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+.bloco_valores{
+    margin: 35px;
+    width: 22%;
+    text-align: justify;
+}
+.v{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.v2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
 .conteudo_baixo{
+    display: flex;
     margin-top: 30px;
     flex-direction: row;
-    width: 80%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 .conteudo_baixo li{
     word-wrap: normal;
+}
+.meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .texto_img{
     display: flex;
@@ -197,19 +236,8 @@ input[type = "search"]::placeholder{
     flex-direction: column;
 }
 .bi-book{
-    /* width: 60px;
-    height: 60px; */
     font-size: 4.5rem;
 }
-/* .rodapé{
-    width: 100vw;
-    height: 250px;
-    background-color: #848484;
-    margin-top: 30px;
-
-    bottom: 0;
-    border-top-left-radius: 20px; border-top-right-radius: 20px;
-} */
 
 p{
     text-align: justify;
