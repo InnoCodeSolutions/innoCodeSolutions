@@ -158,6 +158,49 @@ input[type = "search"]::placeholder{
     cursor: pointer;
 }
 
+.texto_img{
+    background-image: url('../img/fatec_jacarei_blur.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.titulo_sobre{
+    margin-top: 20px;
+    font-size: 50px;
+    color: white;
+}
+.chapeu{
+    width: 100px;
+}
+.conteudo_topo{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px; margin-top: 35px;
+}
+.conteudo_baixo{
+    margin-top: 30px;
+    flex-direction: row;
+    width: 80%;
+}
+.conteudo_baixo li{
+    word-wrap: normal;
+}
+.texto_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bi-book{
+    /* width: 60px;
+    height: 60px; */
+    font-size: 4.5rem;
+}
 /* .rodapé{
     width: 100vw;
     height: 250px;
@@ -231,13 +274,16 @@ legend{
 
 
 /* TEMA ESCURO */
-.bi{
+.bi-sun{
     font-size: 1.3rem;
     cursor: pointer;
     color: white;
 }
 .bi-moon{
     display: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
 }
 .dark{
     background-color: #212529;
