@@ -192,7 +192,7 @@ input[type = "search"]::placeholder{
 .valores{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     width: 95%;
 }
