@@ -75,6 +75,16 @@ header button:hover, a:hover{
     padding: 20px;
     font-size: 35px;
 }
+
+@media (max-width: 900px) {
+    .inno {
+        display: none !important;
+    }
+    .inicio_header {
+        margin: 0 !important;
+    }
+}
+
 .final_header{
     display: flex;
     flex-direction: row;
@@ -325,6 +335,10 @@ p{
     /* filter: brightness(80%); */
 }
 .dark .card .card-body{
+    background-color: #899095;
+    border-color: #899095;
+}
+.dark .card{
     background-color: #899095;
     border-color: #899095;
 }
