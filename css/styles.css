@@ -76,6 +76,19 @@ header button:hover, a:hover{
     padding: 20px;
     font-size: 35px;
 }
+
+@media (max-width: 900px) {
+    .inno {
+      display: none !important;
+    }
+    .inicio_header {
+        margin: 0 !important;
+    }
+    .corpo {
+        width: 95vw;
+    }
+  }
+
 .inicio_header{
     display: flex;
     flex-direction: row;
@@ -274,7 +287,6 @@ p{
 
 
 
-
 /*FOMRULÁRIO*/
 .form{
     font-family: sans-serif;
@@ -340,6 +352,10 @@ legend{
     border-color: #899095;
 }
 .dark .card .card-body{
+    background-color: #899095;
+    border-color: #899095;
+}
+.dark .card{
     background-color: #899095;
     border-color: #899095;
 }
