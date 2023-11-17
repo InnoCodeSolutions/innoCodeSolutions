@@ -9,18 +9,38 @@
 
     <link rel="stylesheet" href="css/style.css">
     <script src="js/certificado.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=WindSong%3A400"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400"
+    />
 </head>
 <body>
     <div class="nome_ra">
         <div class="nome">
             <label>Insira seu nome:</label>
             <br>
-            <input type="text" id="entrada">
+            <input type="text" id="entrada" oninput="atualizarNome()">
         </div>
-        <div class="btn"><button onclick="redirecionar()">Enviar</button></div>
+        <div class="btn"><button onclick="redirecionar()" id="mostrarDiv">Enviar</button></div>
     </div>
     <div id="certificado">
-        <div id="saida"></div>
+        <!-- <div id="saida"></div> -->
+        
+        <!-- <div class="nome_usuario">Alterar</div> --> <!-- Modificado para usar a classe "nome_usuario" -->
+
+
+        <div class="ipad-mini-83-1-15C">
+            <img class="ipad-mini-8-1-2kz" src="./img/ipad-mini-8-1.png" />
+            <div class="nome_usuario">Mauro</div>
+        </div>
+
+
+
     </div>
 </body>
 </html>
