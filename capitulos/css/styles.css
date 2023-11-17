@@ -84,6 +84,14 @@ header button:hover, a:hover{
         margin: 0 !important;
     }
 }
+@media (max-width: 1100px){
+    .corpo {
+        width: 100vw;
+    }
+    .card {
+        width: 20rem;
+    }
+}
 
 .final_header{
     display: flex;
