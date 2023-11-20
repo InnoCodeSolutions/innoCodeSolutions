@@ -86,7 +86,7 @@ header button:hover, a:hover{
 }
 @media (max-width: 1100px){
     .corpo {
-        width: 100vw;
+        width: 95vw;
     }
     .card {
         width: 20rem;
