@@ -43,7 +43,7 @@ header img{
     /* align-items: center; */
     /* background-color: #aaadae; */
     margin-top: 93px;
-    width: 85vw;
+    width: 95vw;
     margin-left: 40px; margin-right: 40px;
 }
 .topo_corpo{
@@ -89,7 +89,7 @@ header button:hover, a:hover{
     }
   }
 
-@media (max-width: 1100px){
+@media (max-width: 1050px){
     .corpo {
         width: 100vw;
     }
@@ -97,6 +97,11 @@ header button:hover, a:hover{
         width: 20rem;
     }
 }
+@media (max-width: 1680px) {
+    .corpo{
+        width: 100vw;
+    }
+  }
 
 .inicio_header{
     display: flex;
