@@ -30,10 +30,14 @@ body{
     background-color: #137B92;
     opacity: 90%;
 
-    position: relative;
     z-index: 99;
 
     box-shadow: 0.5px 0.5px 10px 0.5px #0c4d5c;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 input{
